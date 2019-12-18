@@ -1,0 +1,139 @@
+<style>
+*, #content :first, #content :last{       margin: 0; }
+    body{font: 300 15px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif; background-image: repeating-radial-gradient(circle at 50% 50%, black, yellowgreen 3%); margin-left: 20px; margin-right: 20px; margin-top: 0px;}
+
+/*right area*/
+#right {background-image: linear-gradient(#fa4b2a, #FFFF00); float: right;width: 50%; height: 515px; margin-left: -225px; }
+#right2 {background: none;float: right; width: 55%; height: 450px; margin-left: -320px;}
+#footer {background: skyblue; clear: both; width: 100%; height: 30px;}
+
+h2{
+      margin-top: none;
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 50px;
+      font-weight: 100;
+      letter-spacing: 30px;
+      text-shadow: 3px 3px 5px #000;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: pink;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: pink;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  padding: 0 0 0 10px;
+  min-width: 100px;
+  float: left;
+  position: relative;
+  height: 50px;
+  border-radius: 30px 30px 0 0;
+  margin-left: -10px;
+  text-shadow: 1px 1px 0 #bbb;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  transition: .2s;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+  position: absolute;
+  clear: both;
+  width: 670px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  background: #fff;
+
+}
+
+/*text wrap*/
+.Textwrap {
+  float: left;
+  
+  
+}
+
+.clear{clear: left;}
+
+.font{font-family: Papyrus;}
+
+</style>
+
+<body>
+
+<h2 style="font-family: Lucida Calligraphy"></h2>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="education(event, 'Education')"><b style="font-family: Comic Sans MS; color: red;"></b></button>
+  <button class="tablinks" onclick="education(event, 'Work Experience')"><b style="font-family: Comic Sans MS; color: chocolate;"></b></button>
+  <button class="tablinks" onclick="education(event, 'Computer Skill')"><b style="font-family: Comic Sans MS; color: #B8860B;"></b></button>
+  <button class="tablinks" onclick="education(event, 'Language Skill')"><b style="font-family: Comic Sans MS; color: #8FBC8F;"></b></button>
+  <button class="tablinks" onclick="education(event, 'Contact')"><b style="font-family: Comic Sans MS; color: #9ACD32;"></b></button>
+  <button class="tablinks" onclick="education(event, 'Others')"><b style="font-family: Comic Sans MS; color: #696969;"></b></button>
+</div>
+
+<div id="Education" style="background-color: powderblue; font-size: 93.5%;">
+  <h3 style="text-align: center;"></h3>
+  
+</div>
+<div id="Work Experience" class="tabcontent" style="background-color: yellow; font-size: 93.29%;">
+  <h3 style="text-align: center;"></h3>
+  <ul style="font-size: 100%"><ul style="font-size: 100%"></ul></ul><hr>
+
+  <ul style="font-size: 100%"><ul style="font-size: 100%"></ul></ul><hr>
+
+  <ul style="font-size: 100%"><ul style="font-size: 100%"></ul></ul>
+</div>
+<div id="Computer Skill" class="tabcontent" style="background-color: pink;">
+  <h3 style="text-align: center;"></h3>
+  
+</div>
+<div id="Language Skill" class="tabcontent" style="background-color: violet;">
+  <h3 style="text-align: center;"></h3>
+  </div>
+<div id="Contact" class="tabcontent" style="background-color: lightgreen;">
+  <h3 style="text-align: center;"></h3>
+</div>
+<div id="Others" class="tabcontent" style="background-color: white;">
+  <h3 style="text-align: center;"></h3>
+  </div>
+
+  <div id="right">
+
+    <h2 style="margin-top: none; font-size: 120%; "; align="center";></h2>
+    <figure>
+
+      <div style="background: none;float: right; width: 55%; height: 450px; margin-left: -220px;"><ul style="font-size: 118%; font-family: Lucida Calligraphy; text-align: left;" <li style="font-size: 120%; text-align: justify;"><b></b></li></ul></div>
+
+      <div><img style="border: 10px solid black; float: left; margin-right: 60px; margin-top: 20px;"> 
+      <p class="clear" style="padding-right: 390px; padding-left: 0px; padding-top: 10px; font-size: 120%; color: darkblue; text-align: justify; font-family: Bradley Hand ITC;"> <b></b></p></div>
+    </figure>
+  </div>
+      
+  </div>

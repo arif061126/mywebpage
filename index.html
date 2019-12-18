@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="style.css" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h2>Arif Ahmed</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="education(event, 'Education')"><b>Education</b></button>
+  <button class="tablinks" onclick="education(event, 'Work Experience')"><b>Work Experience</b></button>
+  <button class="tablinks" onclick="education(event, 'Computer Skill')"><b>Computer Skill</b></button>
+  <button class="tablinks" onclick="education(event, 'Language Skill')"><b>Language Skill</b></button>
+  <button class="tablinks" onclick="education(event, 'Contact')"><b>Contact</b></button>
+  <button class="tablinks" onclick="education(event, 'Others')"><b>Others</b></button>
+</div>
+
+<div id="Education" class="tabcontent">
+  <h3><span class="font">Education</span></h3>
+  <p><b>Degree: </b>Bachelor of Software Engineering</p><p><b>Institution: </b>University of Duisburg-Essen, Germany</p><p><b>Degree-status: </b>Ongoing</p><p><b>Focus Areas: </b>C, Objektorientierte C++, Python, Matlab, Digital Logic Design, Rechnernetze, Rechnerarchitektur, Betriebssysteme, Embedded System, Datenbanken, Softwaretechnik, Sicherheit in Kommunikationsnetzen</p>
+  <hr>
+  <p><b>Degree: </b>Bachelor of Pharmacy</p><p><b>Institution: </b>Khulna University, Bangladesh</p><p><b>Degree-status: </b>Passed</p><p><b>Focus Areas: </b>Medicinal Chemistry, Anticancer Drugs, Natural Products Isolation, Organic Chemistry, Pharmacokinetics and pharmacodynamics, Drug Metabolism, Pharmacology, Toxicology, Drug-Disease Interaction, Immunology</p><hr>
+
+  <p><b>Abitur: </b>Higher Secondary School Certificate (equivalent to Abitur)</p><p><b>Institution: </b>Govt. Tolaram College, Bangladesh</p><p><b>Abitur-status: </b>Passed</p>
+</div>
+<div id="Work Experience" class="tabcontent">
+  <h3><span class="font">Work Experiences</span></h3>
+  <ul><li><b><i>Working Student</i></b></li><b>Company: </b>Amazon.de, Rheinberg, Germany<br>November 2018 - December 2018<br><b>Key contributions:</b><ul><li>Support for ICQA, Scaning, Stowing, Picking,Packing and Sorting</li><li>Making priority list for sending to customer after quality control</li><li>Support for quality inspection</li></ul></ul><hr>
+
+  <ul><li><b><i>Working Student in Production</i></b></li><b>Company: </b>Diamler AG, Bremen, Germany<br>May 2018 - August 2018<br><b>Key contributions:</b><ul><li>Making Auto Parts</li><li>Quality Control</li><li>Setting up various Auto Parts using Robots</li></ul></ul><hr>
+
+  <ul><li><b><i>IT Helpdesk in Digital Network Marketing</i></b></li><b>Company: </b>DESTINY-2000 Limited, Dhaka, Bangladesh<br>December 2006 - December 2010<br><b>Key contributions:</b><ul><li>IT Consulting for Customers</li><li>1st and 2nd level IT support</li><li>Analyse sales data and general data management</li><li>Giving Necessary IT Training to the Team</li></ul></ul>
+</div>
+<div id="Computer Skill" class="tabcontent">
+  <h3><span class="font">Computer Skill</span></h3>
+  <p><ul type="square"><li><b><i>Programming Languages</i></b></li><ul><li><b>C: </b>Good</li><li><b>C++: </b>Intermediate</li><li><b>Matlab: </b>Intermediate</li><li><b>Python: </b>Beginner</li></ul></p>
+
+  <li><b><i>Web-page development</i></b></li><ul><li><b>HTML: </b>Good</li><li><b>CSS3: </b>Good</li><li><b>JavaScript: </b>Good</li><li><b>PHP5: </b>Beginner</li><li><b>MySql: </b>Beginner</li></ul></p>
+
+  <li><b><i>Microsoft Office: </i></b>Very Good (Professional training for MS Excel in 2013)</li><br>
+
+  <li><b><i>Adobe Photoshop: </i></b>Good</li><br>
+
+  <li><b><i>Adobe Illustrator: </i></b>Good</li><br>
+
+  <li><b><i>Audio/video Editing: </i></b>Good</li>
+</div>
+<div id="Language Skill" class="tabcontent">
+  <h3><span class="font">Language Skill</span></h3>
+  <ul type="disc">
+  <li>English: Level-B2</li><br>
+  <li>German: Level-B1</li><br>
+  <li>Bangla: Mother Tongue</li><br>
+  <li>Hindi: Good (in speaking level)</li><br>
+  <li>Urdu: Good (in speaking level)</li><br>
+  <li>Arabic: Good (in reading level)</li>
+  </ul>
+</div>
+<div id="Contact" class="tabcontent">
+  <h3><span class="font">Let's Keep in Touch!</span></h3>
+  <p>Your every opinion for betterment will be highly accepted and appreciated. So, feel free to <a href="mailto:arif.061126@gmail.com">write me.</a></p>
+  <p>I am also available in the followings: <ul>
+    <li><a href="https://www.linkedin.com/in/arif-ahmed-037835187/">Linkedin</a></li><br>
+    <li><a href="https://www.xing.com/profile/Arif_Ahmed12/cv">XING</a></li><br>
+    <li><a href="https://www.facebook.com/profile.php?id=100042712742831">facebook</a></li><br>
+    <li>Google+</li><br>
+    <li><a href="https://github.com/arif061126">Github</a></li><br>
+    <li>Twitter</li>
+  </ul></p>
+</div>
+<div id="Others" class="tabcontent">
+  <h3><span class="font">Extras</span></h3>
+  <p>You can also download my full CV by a simple <a href="Lebeslauf von Arif/Lebeslauf von Arif.pdf" download="CV of Arif Ahmed">click.</a></p>
+</div>
+
+<script>
+function education(evt, eduName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(eduName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+  <div id="right">
+
+    <h2>About me....</h2>
+
+    
+      <figure><img src="arif.jpg" width="250" height="300" text-align="center" class="Textwrap"> 
+      <p class="clear"> <b>....looking for new IT challenges as a Working Student or Intern, where I can use and expand my knowledge to become a valuable part of a successful IT team.</b></p></figure>
+
+      
+      
+  </div>
+
+ <div id="right2"><ul><li><b>Name, Familyname: </b>Arif Ahmed</li><br><li><b>Date of birth: </b>14.08.1987</li><br><li><b>Home-Address: </b>Liboriusstr. 69, 45881 Gelsenkirchen</li><br><li><b>Mobile: </b>017676612145</li><br><li><b>E-mail: </b> <a href="mailto:arifahmed@gmx.de"> arifahmed@gmx.de <a href="E-mail:arif.061126@gmail.com"> arif.061126@gmail.com <a href="E-mail: arif.ahmed@stud.uni-due.de">arif.ahmed@stud.uni-due.de </a></li><br><li><b>Personal Attributes: </b>Quick learning, willing to accept responsibility, adaptability to new and challenging situations, punctual, team worker, enjoy traveling, industrious.</li></ul></div>
+
+<div id="footer">Test Site &copy</div>
+
+
+   
+</body>
+</html> 
